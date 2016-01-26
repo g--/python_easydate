@@ -4,6 +4,11 @@ setup(
   name = 'easydate',
   packages = ['easydate'], 
   version = '0.11',
+  install_requires=[
+    'pytz',
+    'python-dateutil',
+    'pandas',
+  ],
   description = 'Very easy datetime manipulation and sequence generation',
   author = 'SebJ',
   author_email = 'sebj.global@gmail.com',
